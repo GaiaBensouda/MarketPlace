@@ -9,19 +9,19 @@ const teamMembers = [
   {
     name: 'Gaia Bensouda Korachi',
     role: 'CEO',
-    photo: gaiaPhoto, // Use the imported photo
+    photo: gaiaPhoto, 
     linkedin: 'https://www.linkedin.com/in/gaia-bensouda-korachi-352527260/'
   },
   {
     name: 'Adrien Dumont',
     role: 'CTO',
-    photo: adrienPhoto, // Use the imported photo
+    photo: adrienPhoto, 
     linkedin: 'https://www.linkedin.com/in/adrien-dumont-x'
   },
   {
     name: 'Sacha Elalouf',
     role: 'CTO',
-    photo: sachaPhoto, // Use the imported photo
+    photo: sachaPhoto, 
     linkedin: 'https://www.linkedin.com/in/sacha-elalouf'
   },
 ];
