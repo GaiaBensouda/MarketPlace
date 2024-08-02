@@ -1,4 +1,3 @@
-// src/pages/HelpPage.js
 
 import React from 'react';
 import './HelpPage.css';
