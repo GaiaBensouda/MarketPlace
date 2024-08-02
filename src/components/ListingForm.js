@@ -1,5 +1,3 @@
-// src/components/ListingForm.js
-
 import React, { useState } from 'react';
 import './ListingForm.css';
 
