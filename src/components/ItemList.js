@@ -1,4 +1,3 @@
-// src/components/ItemList.js
 import React from 'react';
 import ItemCard from './ItemCard';
 import './ItemList.css';
