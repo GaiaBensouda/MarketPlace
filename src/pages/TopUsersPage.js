@@ -1,4 +1,3 @@
-// src/pages/TopUsersPage.js
 import React from 'react';
 import './TopUsersPage.css';
 
@@ -7,14 +6,14 @@ const topUsers = [
     name: 'Jane Doe',
     role: 'Top Seller',
     rating: 4.9,
-    avatar: 'path_to_jane_avatar', // Replace with actual path or URL
+    avatar: 'path_to_jane_avatar', 
     description: 'Top-rated seller of the month with a 99% satisfaction rate.',
   },
   {
     name: 'John Smith',
     role: 'Top Buyer',
     rating: 4.8,
-    avatar: 'path_to_john_avatar', // Replace with actual path or URL
+    avatar: 'path_to_john_avatar', 
     description: 'Highly trusted buyer known for quick payments and good communication.',
   },
   // Add more top users as needed
