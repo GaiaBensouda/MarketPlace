@@ -1,6 +1,5 @@
-// src/components/ProductList.js
 import React, { useEffect, useState } from 'react';
-import { db } from '../firebase'; // Assurez-vous que 'db' est bien exporté de 'firebase.js'
+import { db } from '../firebase'; 
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
