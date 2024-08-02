@@ -1,8 +1,8 @@
 import React from 'react';
 import './TeamSection.css';
-import linkedinLogo from '../assets/linkedin-logo.png'; // Ensure this is the correct path
-import gaiaPhoto from '../assets/gaia.jpg'; // Import Gaia's photo
-import adrienPhoto from '../assets/adrien.jpg'; // Import Adrien's photo
+import linkedinLogo from '../assets/linkedin-logo.png';
+import gaiaPhoto from '../assets/gaia.jpg'; 
+import adrienPhoto from '../assets/adrien.jpg'; 
 import sachaPhoto from '../assets/sacha.jpg'
 
 const teamMembers = [
