@@ -1,4 +1,3 @@
-/* src/App.css */
 body, html {
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ body, html {
 }
 
 a {
-  color: #80cbc4; /* A soft cyan color for links */
+  color: #80cbc4;
   text-decoration: none;
 }
 
