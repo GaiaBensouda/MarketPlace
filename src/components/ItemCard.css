@@ -1,0 +1,44 @@
+/* src/components/ItemCard.css */
+.item-card {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .item-card__title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #e0e0e0;
+  }
+  
+  .item-card__description {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #b0bec5;
+  }
+  
+  .item-card__price {
+    font-size: 1.2rem;
+    color: #81d4fa;
+    margin: 10px 0;
+  }
+  
+  .item-card__link {
+    text-decoration: none;
+    color: #1E88E5;
+    font-weight: bold;
+  }
+  
+  .item-card__link:hover {
+    color: #29b6f6;
+  }
+  

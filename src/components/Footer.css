@@ -1,0 +1,12 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #121212; /* Matching HomePage background color */
+    color: #757575;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

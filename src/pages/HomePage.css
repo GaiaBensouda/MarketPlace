@@ -1,0 +1,66 @@
+/* src/pages/HomePage.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.home {
+  padding: 40px 20px;
+  text-align: center;
+  color: #e0e0e0; /* Use light gray for general text */
+  background-color: #121212;
+  min-height: calc(100vh - 100px); /* Adjust height based on header/footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; /* Applying Montserrat font */
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home__title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* Set title color to white */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  animation: glow 2s infinite alternate;
+}
+
+.home__description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px auto; /* Add more space below the description */
+  line-height: 1.6;
+  color: #b0bec5; /* Slightly lighter gray for description */
+  animation: slideInUp 1.5s ease-out;
+}
+
+.home__logo {
+  margin-top: 30px; /* Add space above the logo */
+  margin-bottom: 40px; /* Add space below the logo */
+  width: 150px; /* Adjust width as needed */
+  height: auto;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,47 @@
+/* src/pages/TopUsersPage.css */
+
+.top-users-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-users-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .top-users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .top-user-card {
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .top-user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .top-user-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .top-user-role,
+  .top-user-rating,
+  .top-user-description {
+    margin: 5px 0;
+  }
+  

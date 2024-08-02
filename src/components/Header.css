@@ -1,0 +1,63 @@
+/* src/components/Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header__nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__link {
+  color: #ffffff; /* Set the font color to white */
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.header__link:hover, .header__link--active {
+  color: #29b6f6;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 40px; /* Adjust this to position the button */
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+}
